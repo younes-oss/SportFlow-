@@ -1,9 +1,6 @@
 package com.learn.servlet;
 
 
-
-
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -16,7 +13,12 @@ import com.learn.models.Utilisateur;
 import java.io.IOException;
 
 public class LoginServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String email = request.getParameter("email");
         String motDePasse = request.getParameter("password");
 
