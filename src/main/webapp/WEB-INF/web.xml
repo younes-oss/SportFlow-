@@ -22,6 +22,12 @@
   	<description></description>
   	<servlet-class>com.learn.servlet.MembreServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>EntraineurServet</servlet-name>
+  	<display-name>EntraineurServet</display-name>
+  	<description></description>
+  	<servlet-class>com.learn.servlet.EntraineurServet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>LoginServlet</servlet-name>
   	<url-pattern>/LoginServlet</url-pattern>
@@ -33,5 +39,9 @@
   <servlet-mapping>
   	<servlet-name>MembreServlet</servlet-name>
   	<url-pattern>/MembreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EntraineurServet</servlet-name>
+  	<url-pattern>/EntraineurServet</url-pattern>
   </servlet-mapping>
 </web-app>
