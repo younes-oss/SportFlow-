@@ -15,7 +15,14 @@ public class Membre extends Utilisateur {
         this.sport = sport;
     }
 
-    // Getters et Setters
+
+    public Membre(Date dateNaissance, String sport) {
+		super();
+		this.dateNaissance = dateNaissance;
+		this.sport = sport;
+	}
+
+	
     public Date getDateNaissance() { return dateNaissance; }
     public void setDateNaissance(Date dateNaissance) { this.dateNaissance = dateNaissance; }
 
